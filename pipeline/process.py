@@ -26,6 +26,7 @@ from .gridding import Message, Regridder
 log = logging.getLogger("process")
 
 T0 = time.time()
+TILE_FMT = 2          # bump to force point tiles to be rewritten
 
 
 # ---------------------------------------------------------------------------
@@ -133,6 +134,11 @@ class RunWork:
             self.points = np.lib.format.open_memmap(ppath, mode="w+", dtype=np.uint8, shape=shape)
             self.points[:] = 255
         self.regridders = {}
+
+    @staticmethod
+    def is_complete(work_dir, model, rid):
+        st = read_json(os.path.join(work_dir, model, rid, "state.json"), {})
+        return len(st.get("done", [])) == len(C.hours_for(model))
 
     def save(self):
         self.points.flush()
@@ -321,8 +327,11 @@ def write_tiles(rw):
                 continue
             full = np.full(arr.shape[:2] + (T, T), 255, np.uint8)
             full[:, :, :blk.shape[2], :blk.shape[3]] = blk
+            # hour-to-hour difference (mod 256) compresses far better; viewer re-accumulates
+            enc = full.copy()
+            enc[1:] = (full[1:].astype(np.int16) - full[:-1].astype(np.int16)) % 256
             with open(path + ".tmp", "wb") as f:
-                f.write(gzip.compress(full.tobytes(), compresslevel=6, mtime=0))
+                f.write(gzip.compress(enc.tobytes(), compresslevel=9, mtime=0))
             os.replace(path + ".tmp", path)
     return nty, ntx
 
@@ -342,7 +351,7 @@ def write_meta(rw, nty, ntx):
                       res=rw.cfg["map_res"]),
         point_grid=dict(lat0=d["lat0"], lon0=d["lon0"], res=C.POINT_RES, ny=rw.pny, nx=rw.pnx,
                         tile=C.TILE, nty=nty, ntx=ntx),
-        levels=C.POINT_LEVELS, map_levels=C.MAP_LEVELS,
+        levels=C.POINT_LEVELS, map_levels=C.MAP_LEVELS, tile_encoding="hour-delta",
         ceil_ref=rw.state.get("ceil_ref"), source=rw.state.get("source"),
         generated=datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
     )
@@ -390,7 +399,7 @@ def discover(model, now):
     start -= timedelta(hours=start.hour % step)
     found = []
     t = start
-    while t >= now - timedelta(hours=cfg["lookback"]) and len(found) < cfg["keep"]:
+    while t >= now - timedelta(hours=cfg["lookback"]) and len(found) < 2:
         for tmpl in C.sources_for(model):
             if fetch.head_ok(fmt_url(tmpl, t, C.hours_for(model)[0])):
                 found.append((t, tmpl))
@@ -408,11 +417,16 @@ def process_model(model, data_dir, work_dir, now, status):
         st["error"] = "no recent runs found on any source"
         log.warning("%s: no runs found", model)
         return False
-    keep_ids = {run_id(t) for t, _ in runs}
+    # Retention: the newest run, plus the previous run only while the newest is
+    # still coming in. Keeps the published site small.
+    keep_ids = set()
     changed = False
     for dt, tmpl in runs:                       # newest first
-        if out_of_time():
+        if keep_ids and all(RunWork.is_complete(work_dir, model, rid) for rid in keep_ids):
             break
+        keep_ids.add(run_id(dt))
+        if out_of_time():
+            continue
         rw = RunWork(work_dir, data_dir, model, dt)
         todo = [h for h in rw.hours if h not in rw.state["done"]]
         did = failed = 0
@@ -441,8 +455,11 @@ def process_model(model, data_dir, work_dir, now, status):
                 log.exception("%s %s f%03d failed: %s", model, rw.rid, h, e)
                 st["error"] = f"{rw.rid} f{h:03d}: {e}"
                 failed += 1
-        if did or not os.path.exists(os.path.join(rw.ddir, "meta.json")):
+        stale_fmt = rw.state.get("tile_fmt") != TILE_FMT
+        if did or stale_fmt or not os.path.exists(os.path.join(rw.ddir, "meta.json")):
             if rw.state["done"]:
+                rw.state["tile_fmt"] = TILE_FMT
+                changed = changed or stale_fmt
                 nty, ntx = write_tiles(rw)
                 write_meta(rw, nty, ntx)
                 changed = changed or did > 0

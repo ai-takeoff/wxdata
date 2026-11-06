@@ -766,6 +766,11 @@ async function loadPoint() {
   if (pt !== S.point || meta !== S.meta) return;
   if (!bytes) { $("pbody").innerHTML = `<div class="note">This model has no data at this location.</div>`; $("psub").textContent = ""; return; }
   const T = g.tile, nf = meta.point_fields.length, nh = meta.hours.length;
+  if (meta.tile_encoding === "hour-delta" && !bytes.decoded) {   // undo hour-to-hour differences once
+    const blk = nf * T * T;
+    for (let k = blk; k < bytes.length; k++) bytes[k] += bytes[k - blk];
+    bytes.decoded = true;
+  }
   const j = iy % T, i = ix % T;
   const luts = meta.point_fields.map((f) => dequantLUT(meta.fields[f]));
   const series = {};

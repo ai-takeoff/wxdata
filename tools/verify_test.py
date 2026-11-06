@@ -67,6 +67,7 @@ for model in ("rrfs", "gfs", "rap"):
     ty, tx, T = iy // pg["tile"], ix // pg["tile"], pg["tile"]
     raw = gzip.open(f"{data}/{model}/{run}/points/{ty}_{tx}.bin.gz").read()
     arr = np.frombuffer(raw, np.uint8).reshape(len(meta["hours"]), len(meta["point_fields"]), T, T)
+    arr = (np.cumsum(arr.astype(np.int64), axis=0) % 256).astype(np.uint8)   # undo hour-delta
     hi = meta["hours"].index(9)
     lat_p, lon_p = pg["lat0"] + iy * pg["res"], pg["lon0"] + ix * pg["res"]
     fi = meta["point_fields"].index("t2m")

@@ -26,7 +26,7 @@ MAP_LEVELS = [925, 850, 700, 500, 300, 250]
 #            Override with env var WX_SOURCES_<MODEL> (comma separated).
 #   hours:   forecast hours to process
 #   cycle_step: hours between runs we use; lookback: how far back to look
-#   keep:    how many recent runs to keep online
+#   Retention: newest run, plus the previous one while the newest is incomplete.
 # ---------------------------------------------------------------------------
 MODELS = {
     "rrfs": dict(
@@ -37,7 +37,7 @@ MODELS = {
             "https://nomads.ncep.noaa.gov/pub/data/nccf/com/rrfs/prod/rrfs.{ymd}/{cc}/rrfs.t{cc}z.prslev.13km.f{fff}.na.grib2",
         ],
         hours=list(range(0, 25)) + list(range(27, 85, 3)),
-        cycle_step=6, lookback=30, keep=2,
+        cycle_step=6, lookback=30,
         map_res=0.125,
     ),
     "gfs": dict(
@@ -48,7 +48,7 @@ MODELS = {
             "https://nomads.ncep.noaa.gov/pub/data/nccf/com/gfs/prod/gfs.{ymd}/{cc}/atmos/gfs.t{cc}z.pgrb2.0p25.f{fff}",
         ],
         hours=list(range(0, 121, 3)) + list(range(126, 241, 6)) + list(range(252, 385, 12)),
-        cycle_step=6, lookback=30, keep=2,
+        cycle_step=6, lookback=30,
         map_res=0.25,
     ),
     "rap": dict(
@@ -59,7 +59,7 @@ MODELS = {
             "https://nomads.ncep.noaa.gov/pub/data/nccf/com/rap/prod/rap.{ymd}/rap.t{cc}z.awp130pgrbf{ff}.grib2",
         ],
         hours=list(range(0, 22)),
-        cycle_step=1, lookback=6, keep=3,
+        cycle_step=1, lookback=6,
         map_res=0.125,
     ),
 }
@@ -178,4 +178,4 @@ TIME_BUDGET = int(os.environ.get("WX_TIME_BUDGET", 35 * 60))
 
 # Total published data size guard (bytes). Oldest extra runs are dropped
 # beyond this to stay under GitHub Pages' 1 GB site limit.
-SIZE_LIMIT = int(os.environ.get("WX_SIZE_LIMIT", 900 * 1024 * 1024))
+SIZE_LIMIT = int(os.environ.get("WX_SIZE_LIMIT", 600 * 1024 * 1024))

@@ -37,7 +37,8 @@ Reliability features:
 - The status dot in the top bar turns amber or red when data is stale. Hover over it for details.
 - Work in progress is cached between jobs, so nothing is downloaded twice.
 - Each job stops starting new work after 35 minutes.
-- Total size is kept under GitHub Pages' 1 GB limit.
+- Only the newest run of each model is kept, plus the previous run while the newest is still arriving. This keeps the site small, well under GitHub Pages' 1 GB limit.
+- Each run's log is published to the repo's `status` branch for troubleshooting.
 
 ## Setup (one time, about 5 minutes)
 

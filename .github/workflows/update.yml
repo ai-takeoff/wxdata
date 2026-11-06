@@ -9,7 +9,7 @@ on:
     paths: ["site/**", "pipeline/**", ".github/workflows/**"]
 
 permissions:
-  contents: read
+  contents: write                  # publishes run logs to the 'status' branch
   pages: write
   id-token: write
   actions: write                   # lets the job keep its own schedule enabled
@@ -24,7 +24,7 @@ jobs:
     timeout-minutes: 50
     environment:
       name: github-pages
-      url: ${{ steps.deploy.outputs.page_url }}
+      url: ${{ steps.deploy.outputs.page_url || steps.deploy2.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
 
@@ -75,7 +75,37 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deploy
         if: steps.pipeline.outputs.changed == 'true' || github.event_name != 'schedule'
+        continue-on-error: true
         uses: actions/deploy-pages@v4
+
+      - name: Retry deploy
+        if: steps.deploy.outcome == 'failure'
+        run: sleep 60
+
+      - name: Deploy to GitHub Pages (retry)
+        id: deploy2
+        if: steps.deploy.outcome == 'failure'
+        uses: actions/deploy-pages@v4
+
+      - name: Publish run status
+        # Log tail + data summary on the 'status' branch, readable without signing in.
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mkdir -p /tmp/st && cd /tmp/st
+          {
+            echo "run: ${{ github.run_number }} (${{ github.event_name }})  $(date -u +%Y-%m-%dT%H:%MZ)"
+            echo "pipeline: ${{ steps.pipeline.outcome }}  deploy: ${{ steps.deploy.outcome }}/${{ steps.deploy2.outcome }}"
+            echo "data size: $(du -sh "$GITHUB_WORKSPACE/state/data" 2>/dev/null | cut -f1)"
+            du -sh "$GITHUB_WORKSPACE"/state/data/*/* 2>/dev/null || true
+          } > summary.txt
+          tail -n 400 "$GITHUB_WORKSPACE/run.log" > log.txt 2>/dev/null || echo "no log" > log.txt
+          cp "$GITHUB_WORKSPACE/state/data/index.json" . 2>/dev/null || true
+          git init -q -b status
+          git -c user.name=wxdata-bot -c user.email=actions@users.noreply.github.com add -A
+          git -c user.name=wxdata-bot -c user.email=actions@users.noreply.github.com commit -qm "status ${{ github.run_number }}"
+          git push -qf "https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}" status || true
 
       - name: Keep the schedule alive
         # GitHub disables schedules in repos with no activity for 60 days; re-enabling daily prevents that.
