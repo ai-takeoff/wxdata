@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>WxData Forecast Viewer</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><path d='M4 20h18a5 5 0 1 0-2-9.6A7 7 0 0 0 7 13a4 4 0 0 0-3 7z' fill='%232563eb'/><path d='M8 25h16' stroke='%232563eb' stroke-width='2.5' stroke-linecap='round'/></svg>">
+</head>
+<body>
+<header id="bar">
+  <div class="brand">WxData</div>
+  <div id="models" class="seg" role="tablist" aria-label="Model"></div>
+  <label class="ctl"><span>Run</span><select id="run"></select></label>
+  <label class="ctl grow"><span>Product</span><select id="product"></select></label>
+  <div class="search">
+    <input id="search" type="search" placeholder="Airport or lat,lon" autocomplete="off" spellcheck="false" aria-label="Find airport or location">
+    <div id="results" class="results" hidden></div>
+  </div>
+  <div class="regions">
+    <button data-region="conus" title="Whole domain">CONUS</button>
+    <button data-region="ne" title="Northeast">NE</button>
+    <button data-region="lakes" title="Great Lakes / Toronto">Lakes</button>
+  </div>
+  <div id="status" class="status" title=""></div>
+</header>
+
+<main id="main">
+  <div id="map"></div>
+  <div id="legend" class="legend"></div>
+  <div id="loading" class="loading" hidden>Loading…</div>
+  <aside id="panel" class="panel" hidden>
+    <div class="panel-head">
+      <div>
+        <div id="ptitle" class="ptitle"></div>
+        <div id="psub" class="psub"></div>
+      </div>
+      <button id="pclose" class="icon" aria-label="Close">&times;</button>
+    </div>
+    <div class="tabs" role="tablist">
+      <button data-tab="table" class="on">Surface</button>
+      <button data-tab="aloft">Winds aloft</button>
+      <button data-tab="sounding">Sounding</button>
+    </div>
+    <div id="pbody" class="pbody"></div>
+  </aside>
+</main>
+
+<footer id="timebar">
+  <button id="prev" class="icon step" title="Previous hour (←)">&#8249;</button>
+  <button id="play" class="icon" title="Play / pause (space)">&#9654;</button>
+  <button id="next" class="icon step" title="Next hour (→)">&#8250;</button>
+  <input id="hour" type="range" min="0" max="0" value="0" aria-label="Forecast hour">
+  <div id="valid" class="valid"></div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
