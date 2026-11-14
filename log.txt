@@ -1,0 +1,146 @@
+2026-11-14 20:37:33,328 INFO process: rrfs 2026111418 f000 done in 6.1s
+2026-11-14 20:37:35,285 WARNING process: rrfs 2026111418 f001: precip unavailable (APCP: no accumulation ending at f001)
+2026-11-14 20:37:38,469 INFO process: rrfs 2026111418 f001 done in 5.0s
+2026-11-14 20:37:40,361 WARNING process: rrfs 2026111418 f002: precip unavailable (APCP: no accumulation ending at f002)
+2026-11-14 20:37:43,299 INFO process: rrfs 2026111418 f002 done in 4.7s
+2026-11-14 20:37:45,231 WARNING process: rrfs 2026111418 f003: precip unavailable (APCP: no accumulation ending at f003)
+2026-11-14 20:37:48,175 INFO process: rrfs 2026111418 f003 done in 4.8s
+2026-11-14 20:37:50,127 WARNING process: rrfs 2026111418 f004: precip unavailable (APCP: no accumulation ending at f004)
+2026-11-14 20:37:53,061 INFO process: rrfs 2026111418 f004 done in 4.8s
+2026-11-14 20:37:54,988 WARNING process: rrfs 2026111418 f005: precip unavailable (APCP: no accumulation ending at f005)
+2026-11-14 20:37:57,878 INFO process: rrfs 2026111418 f005 done in 4.7s
+2026-11-14 20:37:59,820 WARNING process: rrfs 2026111418 f006: precip unavailable (APCP: no accumulation ending at f006)
+2026-11-14 20:38:02,821 INFO process: rrfs 2026111418 f006 done in 4.9s
+2026-11-14 20:38:04,764 WARNING process: rrfs 2026111418 f007: precip unavailable (APCP: no accumulation ending at f007)
+2026-11-14 20:38:07,664 INFO process: rrfs 2026111418 f007 done in 4.8s
+2026-11-14 20:38:09,620 WARNING process: rrfs 2026111418 f008: precip unavailable (APCP: no accumulation ending at f008)
+2026-11-14 20:38:12,507 INFO process: rrfs 2026111418 f008 done in 4.8s
+2026-11-14 20:38:14,467 WARNING process: rrfs 2026111418 f009: precip unavailable (APCP: no accumulation ending at f009)
+2026-11-14 20:38:17,349 INFO process: rrfs 2026111418 f009 done in 4.8s
+2026-11-14 20:38:19,264 WARNING process: rrfs 2026111418 f010: precip unavailable (APCP: no accumulation ending at f010)
+2026-11-14 20:38:22,157 INFO process: rrfs 2026111418 f010 done in 4.7s
+2026-11-14 20:38:24,063 WARNING process: rrfs 2026111418 f011: precip unavailable (APCP: no accumulation ending at f011)
+2026-11-14 20:38:27,148 INFO process: rrfs 2026111418 f011 done in 4.9s
+2026-11-14 20:38:28,987 WARNING process: rrfs 2026111418 f012: precip unavailable (APCP: no accumulation ending at f012)
+2026-11-14 20:38:31,908 INFO process: rrfs 2026111418 f012 done in 4.7s
+2026-11-14 20:38:33,835 WARNING process: rrfs 2026111418 f013: precip unavailable (APCP: no accumulation ending at f013)
+2026-11-14 20:38:36,727 INFO process: rrfs 2026111418 f013 done in 4.8s
+2026-11-14 20:38:38,703 WARNING process: rrfs 2026111418 f014: precip unavailable (APCP: no accumulation ending at f014)
+2026-11-14 20:38:41,583 INFO process: rrfs 2026111418 f014 done in 4.8s
+2026-11-14 20:38:43,519 WARNING process: rrfs 2026111418 f015: precip unavailable (APCP: no accumulation ending at f015)
+2026-11-14 20:38:46,385 INFO process: rrfs 2026111418 f015 done in 4.7s
+2026-11-14 20:38:48,399 WARNING process: rrfs 2026111418 f016: precip unavailable (APCP: no accumulation ending at f016)
+2026-11-14 20:38:51,260 INFO process: rrfs 2026111418 f016 done in 4.8s
+2026-11-14 20:38:53,160 WARNING process: rrfs 2026111418 f017: precip unavailable (APCP: no accumulation ending at f017)
+2026-11-14 20:38:56,016 INFO process: rrfs 2026111418 f017 done in 4.7s
+2026-11-14 20:38:57,889 WARNING process: rrfs 2026111418 f018: precip unavailable (APCP: no accumulation ending at f018)
+2026-11-14 20:39:00,758 INFO process: rrfs 2026111418 f018 done in 4.7s
+2026-11-14 20:39:02,627 WARNING process: rrfs 2026111418 f019: precip unavailable (APCP: no accumulation ending at f019)
+2026-11-14 20:39:05,485 INFO process: rrfs 2026111418 f019 done in 4.7s
+2026-11-14 20:39:07,466 WARNING process: rrfs 2026111418 f020: precip unavailable (APCP: no accumulation ending at f020)
+2026-11-14 20:39:10,340 INFO process: rrfs 2026111418 f020 done in 4.8s
+2026-11-14 20:39:12,216 WARNING process: rrfs 2026111418 f021: precip unavailable (APCP: no accumulation ending at f021)
+2026-11-14 20:39:15,104 INFO process: rrfs 2026111418 f021 done in 4.7s
+2026-11-14 20:39:17,029 WARNING process: rrfs 2026111418 f022: precip unavailable (APCP: no accumulation ending at f022)
+2026-11-14 20:39:19,928 INFO process: rrfs 2026111418 f022 done in 4.8s
+2026-11-14 20:39:21,845 WARNING process: rrfs 2026111418 f023: precip unavailable (APCP: no accumulation ending at f023)
+2026-11-14 20:39:24,776 INFO process: rrfs 2026111418 f023 done in 4.8s
+2026-11-14 20:39:26,681 WARNING process: rrfs 2026111418 f024: precip unavailable (APCP: no accumulation ending at f024)
+2026-11-14 20:39:29,599 INFO process: rrfs 2026111418 f024 done in 4.8s
+2026-11-14 20:39:31,660 WARNING process: rrfs 2026111418 f027: precip unavailable (APCP: no accumulation ending at f027)
+2026-11-14 20:39:34,685 INFO process: rrfs 2026111418 f027 done in 5.0s
+2026-11-14 20:39:36,752 WARNING process: rrfs 2026111418 f030: precip unavailable (APCP: no accumulation ending at f030)
+2026-11-14 20:39:39,616 INFO process: rrfs 2026111418 f030 done in 4.9s
+2026-11-14 20:39:41,822 WARNING process: rrfs 2026111418 f033: precip unavailable (APCP: no accumulation ending at f033)
+2026-11-14 20:39:44,706 INFO process: rrfs 2026111418 f033 done in 5.0s
+2026-11-14 20:39:46,704 WARNING process: rrfs 2026111418 f036: precip unavailable (APCP: no accumulation ending at f036)
+2026-11-14 20:39:49,598 INFO process: rrfs 2026111418 f036 done in 4.8s
+2026-11-14 20:39:51,505 WARNING process: rrfs 2026111418 f039: precip unavailable (APCP: no accumulation ending at f039)
+2026-11-14 20:39:54,392 INFO process: rrfs 2026111418 f039 done in 4.7s
+2026-11-14 20:39:56,504 WARNING process: rrfs 2026111418 f042: precip unavailable (APCP: no accumulation ending at f042)
+2026-11-14 20:39:59,385 INFO process: rrfs 2026111418 f042 done in 4.9s
+2026-11-14 20:40:01,335 WARNING process: rrfs 2026111418 f045: precip unavailable (APCP: no accumulation ending at f045)
+2026-11-14 20:40:04,258 INFO process: rrfs 2026111418 f045 done in 4.8s
+2026-11-14 20:40:06,167 WARNING process: rrfs 2026111418 f048: precip unavailable (APCP: no accumulation ending at f048)
+2026-11-14 20:40:09,132 INFO process: rrfs 2026111418 f048 done in 4.8s
+2026-11-14 20:40:10,930 WARNING process: rrfs 2026111418 f051: precip unavailable (APCP: no accumulation ending at f051)
+2026-11-14 20:40:13,877 INFO process: rrfs 2026111418 f051 done in 4.7s
+2026-11-14 20:40:15,761 WARNING process: rrfs 2026111418 f054: precip unavailable (APCP: no accumulation ending at f054)
+2026-11-14 20:40:18,724 INFO process: rrfs 2026111418 f054 done in 4.8s
+2026-11-14 20:40:20,678 WARNING process: rrfs 2026111418 f057: precip unavailable (APCP: no accumulation ending at f057)
+2026-11-14 20:40:23,625 INFO process: rrfs 2026111418 f057 done in 4.8s
+2026-11-14 20:40:25,651 WARNING process: rrfs 2026111418 f060: precip unavailable (APCP: no accumulation ending at f060)
+2026-11-14 20:40:28,612 INFO process: rrfs 2026111418 f060 done in 4.9s
+2026-11-14 20:40:30,448 WARNING process: rrfs 2026111418 f063: precip unavailable (APCP: no accumulation ending at f063)
+2026-11-14 20:40:33,554 INFO process: rrfs 2026111418 f063 done in 4.9s
+2026-11-14 20:40:35,204 WARNING process: rrfs 2026111418 f066: precip unavailable (APCP: no accumulation ending at f066)
+2026-11-14 20:40:38,193 INFO process: rrfs 2026111418 f066 done in 4.6s
+2026-11-14 20:40:39,855 WARNING process: rrfs 2026111418 f069: precip unavailable (APCP: no accumulation ending at f069)
+2026-11-14 20:40:42,884 INFO process: rrfs 2026111418 f069 done in 4.6s
+2026-11-14 20:41:01,124 WARNING process: rrfs 2026111418 f072: precip unavailable (APCP: no accumulation ending at f072)
+2026-11-14 20:41:04,341 INFO process: rrfs 2026111418 f072 done in 21.1s
+2026-11-14 20:41:49,209 INFO process: rap 2026111419 f000 done in 6.6s
+2026-11-14 20:41:55,607 INFO process: rap 2026111419 f001 done in 6.2s
+2026-11-14 20:41:55,682 WARNING fetch: request error https://noaa-rap-pds.s3.amazonaws.com/rap.20261114/rap.t19z.awp130pgrbf02.grib2: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-11-14 20:41:55,684 WARNING fetch: request error https://noaa-rap-pds.s3.amazonaws.com/rap.20261114/rap.t19z.awp130pgrbf02.grib2: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-11-14 20:41:55,688 WARNING fetch: request error https://noaa-rap-pds.s3.amazonaws.com/rap.20261114/rap.t19z.awp130pgrbf02.grib2: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-11-14 20:42:03,726 INFO process: rap 2026111419 f002 done in 8.1s
+2026-11-14 20:42:10,050 INFO process: rap 2026111419 f003 done in 6.3s
+2026-11-14 20:42:10,116 WARNING fetch: request error https://noaa-rap-pds.s3.amazonaws.com/rap.20261114/rap.t19z.awp130pgrbf04.grib2: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-11-14 20:42:18,088 INFO process: rap 2026111419 f004 done in 8.0s
+2026-11-14 20:42:24,294 INFO process: rap 2026111419 f005 done in 6.2s
+2026-11-14 20:42:24,354 WARNING fetch: request error https://noaa-rap-pds.s3.amazonaws.com/rap.20261114/rap.t19z.awp130pgrbf06.grib2: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-11-14 20:42:32,482 INFO process: rap 2026111419 f006 done in 8.1s
+2026-11-14 20:42:38,838 INFO process: rap 2026111419 f007 done in 6.3s
+2026-11-14 20:42:38,916 WARNING fetch: request error https://noaa-rap-pds.s3.amazonaws.com/rap.20261114/rap.t19z.awp130pgrbf08.grib2: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-11-14 20:42:46,842 INFO process: rap 2026111419 f008 done in 7.9s
+2026-11-14 20:42:53,046 INFO process: rap 2026111419 f009 done in 6.2s
+2026-11-14 20:42:53,120 WARNING fetch: request error https://noaa-rap-pds.s3.amazonaws.com/rap.20261114/rap.t19z.awp130pgrbf10.grib2: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-11-14 20:43:01,050 INFO process: rap 2026111419 f010 done in 7.9s
+2026-11-14 20:43:07,276 INFO process: rap 2026111419 f011 done in 6.2s
+2026-11-14 20:43:07,358 WARNING fetch: request error https://noaa-rap-pds.s3.amazonaws.com/rap.20261114/rap.t19z.awp130pgrbf12.grib2: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-11-14 20:43:15,327 INFO process: rap 2026111419 f012 done in 8.0s
+2026-11-14 20:43:21,536 INFO process: rap 2026111419 f013 done in 6.1s
+2026-11-14 20:43:27,578 INFO process: rap 2026111419 f014 done in 6.0s
+2026-11-14 20:43:33,615 INFO process: rap 2026111419 f015 done in 6.0s
+2026-11-14 20:43:33,708 WARNING fetch: request error https://noaa-rap-pds.s3.amazonaws.com/rap.20261114/rap.t19z.awp130pgrbf16.grib2: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-11-14 20:43:41,648 INFO process: rap 2026111419 f016 done in 8.0s
+2026-11-14 20:43:47,927 INFO process: rap 2026111419 f017 done in 6.2s
+2026-11-14 20:43:54,206 INFO process: rap 2026111419 f018 done in 6.2s
+2026-11-14 20:43:54,282 WARNING fetch: request error https://noaa-rap-pds.s3.amazonaws.com/rap.20261114/rap.t19z.awp130pgrbf19.grib2: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-11-14 20:43:54,284 WARNING fetch: request error https://noaa-rap-pds.s3.amazonaws.com/rap.20261114/rap.t19z.awp130pgrbf19.grib2: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-11-14 20:43:54,285 WARNING fetch: request error https://noaa-rap-pds.s3.amazonaws.com/rap.20261114/rap.t19z.awp130pgrbf19.grib2: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-11-14 20:44:02,199 INFO process: rap 2026111419 f019 done in 7.9s
+2026-11-14 20:44:08,406 INFO process: rap 2026111419 f020 done in 6.1s
+2026-11-14 20:44:08,486 WARNING fetch: request error https://noaa-rap-pds.s3.amazonaws.com/rap.20261114/rap.t19z.awp130pgrbf21.grib2: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-11-14 20:44:08,490 WARNING fetch: request error https://noaa-rap-pds.s3.amazonaws.com/rap.20261114/rap.t19z.awp130pgrbf21.grib2: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-11-14 20:44:16,483 INFO process: rap 2026111419 f021 done in 8.0s
+2026-11-14 20:44:55,544 INFO process: gfs 2026111412 f156 done in 2.5s
+2026-11-14 20:44:57,672 INFO process: gfs 2026111412 f162 done in 2.1s
+2026-11-14 20:44:59,703 INFO process: gfs 2026111412 f168 done in 2.0s
+2026-11-14 20:45:01,855 INFO process: gfs 2026111412 f174 done in 2.1s
+2026-11-14 20:45:03,899 INFO process: gfs 2026111412 f180 done in 2.0s
+2026-11-14 20:45:06,042 INFO process: gfs 2026111412 f186 done in 2.1s
+2026-11-14 20:45:08,130 INFO process: gfs 2026111412 f192 done in 2.0s
+2026-11-14 20:45:10,232 INFO process: gfs 2026111412 f198 done in 2.0s
+2026-11-14 20:45:12,366 INFO process: gfs 2026111412 f204 done in 2.1s
+2026-11-14 20:45:14,440 INFO process: gfs 2026111412 f210 done in 2.0s
+2026-11-14 20:45:16,508 INFO process: gfs 2026111412 f216 done in 2.0s
+2026-11-14 20:45:18,567 INFO process: gfs 2026111412 f222 done in 2.0s
+2026-11-14 20:45:20,608 INFO process: gfs 2026111412 f228 done in 2.0s
+2026-11-14 20:45:22,716 INFO process: gfs 2026111412 f234 done in 2.1s
+2026-11-14 20:45:24,767 INFO process: gfs 2026111412 f240 done in 2.0s
+2026-11-14 20:45:26,950 INFO process: gfs 2026111412 f252 done in 2.1s
+2026-11-14 20:45:29,125 INFO process: gfs 2026111412 f264 done in 2.1s
+2026-11-14 20:45:31,236 INFO process: gfs 2026111412 f276 done in 2.1s
+2026-11-14 20:45:33,396 INFO process: gfs 2026111412 f288 done in 2.1s
+2026-11-14 20:45:35,787 INFO process: gfs 2026111412 f300 done in 2.2s
+2026-11-14 20:45:38,166 INFO process: gfs 2026111412 f312 done in 2.3s
+2026-11-14 20:45:40,233 INFO process: gfs 2026111412 f324 done in 2.0s
+2026-11-14 20:45:42,451 INFO process: gfs 2026111412 f336 done in 2.2s
+2026-11-14 20:45:44,554 INFO process: gfs 2026111412 f348 done in 2.0s
+2026-11-14 20:45:46,634 INFO process: gfs 2026111412 f360 done in 2.0s
+2026-11-14 20:45:48,735 INFO process: gfs 2026111412 f372 done in 2.0s
+2026-11-14 20:45:50,776 INFO process: gfs 2026111412 f384 done in 2.0s
+2026-11-14 20:46:42,963 INFO process: data size 473.2 MB, changed=True
+CHANGED=true
