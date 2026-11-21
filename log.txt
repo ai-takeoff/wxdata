@@ -1,0 +1,186 @@
+2026-11-21 19:05:13,343 INFO process: rrfs 2026112112 f000 done in 6.6s
+2026-11-21 19:05:15,761 WARNING process: rrfs 2026112112 f001: precip unavailable (APCP: no accumulation ending at f001)
+2026-11-21 19:05:19,180 INFO process: rrfs 2026112112 f001 done in 5.7s
+2026-11-21 19:05:21,643 WARNING process: rrfs 2026112112 f002: precip unavailable (APCP: no accumulation ending at f002)
+2026-11-21 19:05:25,045 INFO process: rrfs 2026112112 f002 done in 5.8s
+2026-11-21 19:05:27,474 WARNING process: rrfs 2026112112 f003: precip unavailable (APCP: no accumulation ending at f003)
+2026-11-21 19:05:30,872 INFO process: rrfs 2026112112 f003 done in 5.7s
+2026-11-21 19:05:33,366 WARNING process: rrfs 2026112112 f004: precip unavailable (APCP: no accumulation ending at f004)
+2026-11-21 19:05:36,849 INFO process: rrfs 2026112112 f004 done in 5.8s
+2026-11-21 19:05:39,317 WARNING process: rrfs 2026112112 f005: precip unavailable (APCP: no accumulation ending at f005)
+2026-11-21 19:05:42,711 INFO process: rrfs 2026112112 f005 done in 5.7s
+2026-11-21 19:05:45,160 WARNING process: rrfs 2026112112 f006: precip unavailable (APCP: no accumulation ending at f006)
+2026-11-21 19:05:48,558 INFO process: rrfs 2026112112 f006 done in 5.8s
+2026-11-21 19:05:51,025 WARNING process: rrfs 2026112112 f007: precip unavailable (APCP: no accumulation ending at f007)
+2026-11-21 19:05:54,408 INFO process: rrfs 2026112112 f007 done in 5.8s
+2026-11-21 19:05:56,908 WARNING process: rrfs 2026112112 f008: precip unavailable (APCP: no accumulation ending at f008)
+2026-11-21 19:06:00,286 INFO process: rrfs 2026112112 f008 done in 5.8s
+2026-11-21 19:06:02,761 WARNING process: rrfs 2026112112 f009: precip unavailable (APCP: no accumulation ending at f009)
+2026-11-21 19:06:06,122 INFO process: rrfs 2026112112 f009 done in 5.7s
+2026-11-21 19:06:08,658 WARNING process: rrfs 2026112112 f010: precip unavailable (APCP: no accumulation ending at f010)
+2026-11-21 19:06:12,001 INFO process: rrfs 2026112112 f010 done in 5.7s
+2026-11-21 19:06:14,472 WARNING process: rrfs 2026112112 f011: precip unavailable (APCP: no accumulation ending at f011)
+2026-11-21 19:06:17,796 INFO process: rrfs 2026112112 f011 done in 5.7s
+2026-11-21 19:06:20,307 WARNING process: rrfs 2026112112 f012: precip unavailable (APCP: no accumulation ending at f012)
+2026-11-21 19:06:23,611 INFO process: rrfs 2026112112 f012 done in 5.7s
+2026-11-21 19:06:26,097 WARNING process: rrfs 2026112112 f013: precip unavailable (APCP: no accumulation ending at f013)
+2026-11-21 19:06:29,395 INFO process: rrfs 2026112112 f013 done in 5.7s
+2026-11-21 19:06:31,866 WARNING process: rrfs 2026112112 f014: precip unavailable (APCP: no accumulation ending at f014)
+2026-11-21 19:06:35,170 INFO process: rrfs 2026112112 f014 done in 5.7s
+2026-11-21 19:06:37,668 WARNING process: rrfs 2026112112 f015: precip unavailable (APCP: no accumulation ending at f015)
+2026-11-21 19:06:40,972 INFO process: rrfs 2026112112 f015 done in 5.7s
+2026-11-21 19:06:43,421 WARNING process: rrfs 2026112112 f016: precip unavailable (APCP: no accumulation ending at f016)
+2026-11-21 19:06:46,708 INFO process: rrfs 2026112112 f016 done in 5.6s
+2026-11-21 19:06:49,129 WARNING process: rrfs 2026112112 f017: precip unavailable (APCP: no accumulation ending at f017)
+2026-11-21 19:06:52,426 INFO process: rrfs 2026112112 f017 done in 5.6s
+2026-11-21 19:06:54,916 WARNING process: rrfs 2026112112 f018: precip unavailable (APCP: no accumulation ending at f018)
+2026-11-21 19:06:58,226 INFO process: rrfs 2026112112 f018 done in 5.7s
+2026-11-21 19:07:00,721 WARNING process: rrfs 2026112112 f019: precip unavailable (APCP: no accumulation ending at f019)
+2026-11-21 19:07:04,021 INFO process: rrfs 2026112112 f019 done in 5.7s
+2026-11-21 19:07:06,478 WARNING process: rrfs 2026112112 f020: precip unavailable (APCP: no accumulation ending at f020)
+2026-11-21 19:07:09,770 INFO process: rrfs 2026112112 f020 done in 5.7s
+2026-11-21 19:07:12,285 WARNING process: rrfs 2026112112 f021: precip unavailable (APCP: no accumulation ending at f021)
+2026-11-21 19:07:15,593 INFO process: rrfs 2026112112 f021 done in 5.7s
+2026-11-21 19:07:18,036 WARNING process: rrfs 2026112112 f022: precip unavailable (APCP: no accumulation ending at f022)
+2026-11-21 19:07:21,351 INFO process: rrfs 2026112112 f022 done in 5.7s
+2026-11-21 19:07:23,812 WARNING process: rrfs 2026112112 f023: precip unavailable (APCP: no accumulation ending at f023)
+2026-11-21 19:07:27,145 INFO process: rrfs 2026112112 f023 done in 5.7s
+2026-11-21 19:07:29,619 WARNING process: rrfs 2026112112 f024: precip unavailable (APCP: no accumulation ending at f024)
+2026-11-21 19:07:32,951 INFO process: rrfs 2026112112 f024 done in 5.7s
+2026-11-21 19:07:35,668 WARNING process: rrfs 2026112112 f027: precip unavailable (APCP: no accumulation ending at f027)
+2026-11-21 19:07:39,005 INFO process: rrfs 2026112112 f027 done in 5.9s
+2026-11-21 19:07:41,933 WARNING process: rrfs 2026112112 f030: precip unavailable (APCP: no accumulation ending at f030)
+2026-11-21 19:07:45,290 INFO process: rrfs 2026112112 f030 done in 6.2s
+2026-11-21 19:07:48,197 WARNING process: rrfs 2026112112 f033: precip unavailable (APCP: no accumulation ending at f033)
+2026-11-21 19:07:51,531 INFO process: rrfs 2026112112 f033 done in 6.1s
+2026-11-21 19:07:54,416 WARNING process: rrfs 2026112112 f036: precip unavailable (APCP: no accumulation ending at f036)
+2026-11-21 19:07:57,745 INFO process: rrfs 2026112112 f036 done in 6.1s
+2026-11-21 19:08:00,213 WARNING process: rrfs 2026112112 f039: precip unavailable (APCP: no accumulation ending at f039)
+2026-11-21 19:08:03,540 INFO process: rrfs 2026112112 f039 done in 5.7s
+2026-11-21 19:08:05,979 WARNING process: rrfs 2026112112 f042: precip unavailable (APCP: no accumulation ending at f042)
+2026-11-21 19:08:09,274 INFO process: rrfs 2026112112 f042 done in 5.6s
+2026-11-21 19:08:11,750 WARNING process: rrfs 2026112112 f045: precip unavailable (APCP: no accumulation ending at f045)
+2026-11-21 19:08:15,024 INFO process: rrfs 2026112112 f045 done in 5.6s
+2026-11-21 19:08:17,474 WARNING process: rrfs 2026112112 f048: precip unavailable (APCP: no accumulation ending at f048)
+2026-11-21 19:08:20,742 INFO process: rrfs 2026112112 f048 done in 5.6s
+2026-11-21 19:08:23,164 WARNING process: rrfs 2026112112 f051: precip unavailable (APCP: no accumulation ending at f051)
+2026-11-21 19:08:26,486 INFO process: rrfs 2026112112 f051 done in 5.6s
+2026-11-21 19:08:28,963 WARNING process: rrfs 2026112112 f054: precip unavailable (APCP: no accumulation ending at f054)
+2026-11-21 19:08:32,319 INFO process: rrfs 2026112112 f054 done in 5.7s
+2026-11-21 19:08:34,691 WARNING process: rrfs 2026112112 f057: precip unavailable (APCP: no accumulation ending at f057)
+2026-11-21 19:08:38,023 INFO process: rrfs 2026112112 f057 done in 5.6s
+2026-11-21 19:08:40,494 WARNING process: rrfs 2026112112 f060: precip unavailable (APCP: no accumulation ending at f060)
+2026-11-21 19:08:43,806 INFO process: rrfs 2026112112 f060 done in 5.6s
+2026-11-21 19:08:46,268 WARNING process: rrfs 2026112112 f063: precip unavailable (APCP: no accumulation ending at f063)
+2026-11-21 19:08:49,572 INFO process: rrfs 2026112112 f063 done in 5.7s
+2026-11-21 19:08:52,086 WARNING process: rrfs 2026112112 f066: precip unavailable (APCP: no accumulation ending at f066)
+2026-11-21 19:08:55,371 INFO process: rrfs 2026112112 f066 done in 5.6s
+2026-11-21 19:08:57,843 WARNING process: rrfs 2026112112 f069: precip unavailable (APCP: no accumulation ending at f069)
+2026-11-21 19:09:01,077 INFO process: rrfs 2026112112 f069 done in 5.6s
+2026-11-21 19:09:03,530 WARNING process: rrfs 2026112112 f072: precip unavailable (APCP: no accumulation ending at f072)
+2026-11-21 19:09:06,754 INFO process: rrfs 2026112112 f072 done in 5.6s
+2026-11-21 19:09:09,238 WARNING process: rrfs 2026112112 f075: precip unavailable (APCP: no accumulation ending at f075)
+2026-11-21 19:09:12,454 INFO process: rrfs 2026112112 f075 done in 5.6s
+2026-11-21 19:09:14,865 WARNING process: rrfs 2026112112 f078: precip unavailable (APCP: no accumulation ending at f078)
+2026-11-21 19:09:18,117 INFO process: rrfs 2026112112 f078 done in 5.6s
+2026-11-21 19:09:20,538 WARNING process: rrfs 2026112112 f081: precip unavailable (APCP: no accumulation ending at f081)
+2026-11-21 19:09:23,789 INFO process: rrfs 2026112112 f081 done in 5.6s
+2026-11-21 19:09:26,179 WARNING process: rrfs 2026112112 f084: precip unavailable (APCP: no accumulation ending at f084)
+2026-11-21 19:09:29,408 INFO process: rrfs 2026112112 f084 done in 5.5s
+2026-11-21 19:10:20,147 INFO process: rap 2026112118 f000 done in 7.4s
+2026-11-21 19:10:27,885 INFO process: rap 2026112118 f001 done in 7.4s
+2026-11-21 19:10:35,454 INFO process: rap 2026112118 f002 done in 7.5s
+2026-11-21 19:10:43,027 INFO process: rap 2026112118 f003 done in 7.5s
+2026-11-21 19:10:50,481 INFO process: rap 2026112118 f004 done in 7.4s
+2026-11-21 19:10:58,039 INFO process: rap 2026112118 f005 done in 7.5s
+2026-11-21 19:11:05,539 INFO process: rap 2026112118 f006 done in 7.4s
+2026-11-21 19:11:13,132 INFO process: rap 2026112118 f007 done in 7.5s
+2026-11-21 19:11:20,665 INFO process: rap 2026112118 f008 done in 7.4s
+2026-11-21 19:11:28,077 INFO process: rap 2026112118 f009 done in 7.3s
+2026-11-21 19:11:35,653 INFO process: rap 2026112118 f010 done in 7.5s
+2026-11-21 19:11:43,149 INFO process: rap 2026112118 f011 done in 7.4s
+2026-11-21 19:11:50,723 INFO process: rap 2026112118 f012 done in 7.5s
+2026-11-21 19:11:58,317 INFO process: rap 2026112118 f013 done in 7.5s
+2026-11-21 19:12:05,825 INFO process: rap 2026112118 f014 done in 7.4s
+2026-11-21 19:12:13,315 INFO process: rap 2026112118 f015 done in 7.4s
+2026-11-21 19:12:20,891 INFO process: rap 2026112118 f016 done in 7.5s
+2026-11-21 19:12:28,338 INFO process: rap 2026112118 f017 done in 7.4s
+2026-11-21 19:12:35,830 INFO process: rap 2026112118 f018 done in 7.4s
+2026-11-21 19:12:43,341 INFO process: rap 2026112118 f019 done in 7.4s
+2026-11-21 19:12:50,812 INFO process: rap 2026112118 f020 done in 7.4s
+2026-11-21 19:12:58,393 INFO process: rap 2026112118 f021 done in 7.5s
+2026-11-21 19:13:39,755 INFO process: gfs 2026112112 f000 done in 3.4s
+2026-11-21 19:13:42,412 INFO process: gfs 2026112112 f003 done in 2.6s
+2026-11-21 19:13:45,043 INFO process: gfs 2026112112 f006 done in 2.5s
+2026-11-21 19:13:47,725 INFO process: gfs 2026112112 f009 done in 2.6s
+2026-11-21 19:13:50,411 INFO process: gfs 2026112112 f012 done in 2.6s
+2026-11-21 19:13:53,067 INFO process: gfs 2026112112 f015 done in 2.6s
+2026-11-21 19:13:55,676 INFO process: gfs 2026112112 f018 done in 2.5s
+2026-11-21 19:13:58,403 INFO process: gfs 2026112112 f021 done in 2.6s
+2026-11-21 19:14:01,098 INFO process: gfs 2026112112 f024 done in 2.6s
+2026-11-21 19:14:03,795 INFO process: gfs 2026112112 f027 done in 2.6s
+2026-11-21 19:14:06,474 INFO process: gfs 2026112112 f030 done in 2.6s
+2026-11-21 19:14:09,138 INFO process: gfs 2026112112 f033 done in 2.6s
+2026-11-21 19:14:11,769 INFO process: gfs 2026112112 f036 done in 2.5s
+2026-11-21 19:14:14,416 INFO process: gfs 2026112112 f039 done in 2.6s
+2026-11-21 19:14:17,053 INFO process: gfs 2026112112 f042 done in 2.5s
+2026-11-21 19:14:19,677 INFO process: gfs 2026112112 f045 done in 2.5s
+2026-11-21 19:14:22,367 INFO process: gfs 2026112112 f048 done in 2.6s
+2026-11-21 19:14:25,018 INFO process: gfs 2026112112 f051 done in 2.6s
+2026-11-21 19:14:28,217 INFO process: gfs 2026112112 f054 done in 3.1s
+2026-11-21 19:14:30,870 INFO process: gfs 2026112112 f057 done in 2.6s
+2026-11-21 19:14:34,106 INFO process: gfs 2026112112 f060 done in 2.9s
+2026-11-21 19:14:37,233 INFO process: gfs 2026112112 f063 done in 3.0s
+2026-11-21 19:14:39,821 INFO process: gfs 2026112112 f066 done in 2.5s
+2026-11-21 19:14:42,480 INFO process: gfs 2026112112 f069 done in 2.6s
+2026-11-21 19:14:45,111 INFO process: gfs 2026112112 f072 done in 2.5s
+2026-11-21 19:14:47,758 INFO process: gfs 2026112112 f075 done in 2.6s
+2026-11-21 19:14:50,369 INFO process: gfs 2026112112 f078 done in 2.5s
+2026-11-21 19:14:52,953 INFO process: gfs 2026112112 f081 done in 2.5s
+2026-11-21 19:14:55,602 INFO process: gfs 2026112112 f084 done in 2.6s
+2026-11-21 19:14:58,227 INFO process: gfs 2026112112 f087 done in 2.5s
+2026-11-21 19:15:00,832 INFO process: gfs 2026112112 f090 done in 2.5s
+2026-11-21 19:15:03,479 INFO process: gfs 2026112112 f093 done in 2.6s
+2026-11-21 19:15:06,097 INFO process: gfs 2026112112 f096 done in 2.5s
+2026-11-21 19:15:08,710 INFO process: gfs 2026112112 f099 done in 2.5s
+2026-11-21 19:15:11,300 INFO process: gfs 2026112112 f102 done in 2.5s
+2026-11-21 19:15:14,063 INFO process: gfs 2026112112 f105 done in 2.7s
+2026-11-21 19:15:16,699 INFO process: gfs 2026112112 f108 done in 2.5s
+2026-11-21 19:15:19,324 INFO process: gfs 2026112112 f111 done in 2.5s
+2026-11-21 19:15:22,424 INFO process: gfs 2026112112 f114 done in 3.0s
+2026-11-21 19:15:25,464 INFO process: gfs 2026112112 f117 done in 2.9s
+2026-11-21 19:15:28,494 INFO process: gfs 2026112112 f120 done in 2.9s
+2026-11-21 19:15:31,087 INFO process: gfs 2026112112 f126 done in 2.5s
+2026-11-21 19:15:34,013 INFO process: gfs 2026112112 f132 done in 2.8s
+2026-11-21 19:15:36,644 INFO process: gfs 2026112112 f138 done in 2.5s
+2026-11-21 19:15:39,255 INFO process: gfs 2026112112 f144 done in 2.5s
+2026-11-21 19:15:41,894 INFO process: gfs 2026112112 f150 done in 2.5s
+2026-11-21 19:15:44,540 INFO process: gfs 2026112112 f156 done in 2.5s
+2026-11-21 19:15:47,157 INFO process: gfs 2026112112 f162 done in 2.5s
+2026-11-21 19:15:49,792 INFO process: gfs 2026112112 f168 done in 2.5s
+2026-11-21 19:15:52,444 INFO process: gfs 2026112112 f174 done in 2.6s
+2026-11-21 19:15:55,078 INFO process: gfs 2026112112 f180 done in 2.5s
+2026-11-21 19:15:57,742 INFO process: gfs 2026112112 f186 done in 2.6s
+2026-11-21 19:16:00,406 INFO process: gfs 2026112112 f192 done in 2.6s
+2026-11-21 19:16:03,063 INFO process: gfs 2026112112 f198 done in 2.6s
+2026-11-21 19:16:05,713 INFO process: gfs 2026112112 f204 done in 2.6s
+2026-11-21 19:16:08,358 INFO process: gfs 2026112112 f210 done in 2.6s
+2026-11-21 19:16:11,066 INFO process: gfs 2026112112 f216 done in 2.6s
+2026-11-21 19:16:14,271 INFO process: gfs 2026112112 f222 done in 3.1s
+2026-11-21 19:16:16,946 INFO process: gfs 2026112112 f228 done in 2.6s
+2026-11-21 19:16:20,093 INFO process: gfs 2026112112 f234 done in 3.1s
+2026-11-21 19:16:23,149 INFO process: gfs 2026112112 f240 done in 3.0s
+2026-11-21 19:16:25,892 INFO process: gfs 2026112112 f252 done in 2.7s
+2026-11-21 19:16:28,632 INFO process: gfs 2026112112 f264 done in 2.7s
+2026-11-21 19:16:31,426 INFO process: gfs 2026112112 f276 done in 2.7s
+2026-11-21 19:16:34,161 INFO process: gfs 2026112112 f288 done in 2.6s
+2026-11-21 19:16:36,861 INFO process: gfs 2026112112 f300 done in 2.6s
+2026-11-21 19:16:39,572 INFO process: gfs 2026112112 f312 done in 2.6s
+2026-11-21 19:16:42,269 INFO process: gfs 2026112112 f324 done in 2.6s
+2026-11-21 19:16:44,938 INFO process: gfs 2026112112 f336 done in 2.6s
+2026-11-21 19:16:47,558 INFO process: gfs 2026112112 f348 done in 2.5s
+2026-11-21 19:16:50,298 INFO process: gfs 2026112112 f360 done in 2.7s
+2026-11-21 19:16:53,041 INFO process: gfs 2026112112 f372 done in 2.7s
+2026-11-21 19:16:55,769 INFO process: gfs 2026112112 f384 done in 2.6s
+2026-11-21 19:17:48,180 INFO process: data size 358.6 MB, changed=True
+CHANGED=true
