@@ -1,0 +1,7 @@
+run: 77 (schedule)  2026-11-28T14:17Z
+pipeline: success  deploy: success/skipped
+data size: 365M
+167M	/home/runner/work/wxdata/wxdata/state/data/gfs/2026112806
+57M	/home/runner/work/wxdata/wxdata/state/data/rap/2026112813
+131M	/home/runner/work/wxdata/wxdata/state/data/rrfs/2026112806
+12M	/home/runner/work/wxdata/wxdata/state/data/rrfs/2026112812
